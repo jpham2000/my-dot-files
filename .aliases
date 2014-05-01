@@ -19,6 +19,7 @@ alias o="open"
 alias oo="open ."
 alias rhtunnel="ssh -L 5901:localhost:5901 -N -f -l xalg rhbox"
 alias hist='history | grep $1' #Requires one input
+alias drush="/home/vagrant/.composer/vendor/drush/drush/drush"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
